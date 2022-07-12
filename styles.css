@@ -27,6 +27,16 @@ h3 {
     margin-top: -8px;
 }
 
+
+
+#cart-count {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: -80px;
+   flex-wrap: wrap; 
+   
+}
+
 #deathwish {
     margin-left: 45px;
 }
@@ -108,7 +118,7 @@ nav {
     font-size: 18px;
     margin-left: 1780px;
     color: black;
-    margin-top: -645px;
+    margin-top: -1175px;
 }
 
 .nav-link:hover{
@@ -126,15 +136,16 @@ nav {
 
 .test-div {
     display: flex;
-    flex-direction: column;
-    background-color: blue;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    
 }
 
 .baker-card {
     border: solid;
     height: 440px;
     width: 250px;
-    margin-left: 220px;
+    margin-left: 100px;
     margin-top: 130px;
     border-width: 0.1ch;
     background-color: #E8E9ED;
@@ -149,94 +160,36 @@ nav {
     border-width: 0.1ch;
 }
 
-.baker-card-2 {
-    border: solid;
-    height: 440px;
-    width: 250px;
-    margin-left: 520px;
-    margin-top: -442px;
-    border-width: 0.1ch;
-    justify-content: space-between;
-    background-color: #E8E9ED;
-}
-
-.baker-pic-2 {
-    height: 300px;
-    width: 250px;
-    border-bottom: solid;
-    border-width: 0.1ch;
-}
-
-.death-card {
-    border: solid;
-    height: 440px;
-    width: 250px;
-    margin-left: 820px;
-    margin-top: -442px;
-    border-width: 0.1ch;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #E8E9ED;
-    
-}
-
-.death-pic {
-    height: 300px;
-    width: 250px;
-    border-bottom: solid;
-    border-width: 0.1ch;
-}
-
-.death-card-2 {
-    border: solid;
-    height: 440px;
-    width: 250px;
-    margin-left: 1120px;
-    margin-top: -442px;
-    border-width: 0.1ch;
-    justify-content: space-evenly;
-    background-color: #E8E9ED;
-}
-
-.death-pic-2 {
-    height: 300px;
-    width: 250px;
-    border-bottom: solid;
-    border-width: 0.1ch;
-}
-
 .cart-btn {
-    margin-left: 1px;
     background-color: white; 
+    margin-top: -10px;
 }
 
-.prim-card {
-    border: solid;
-    height: 440px;
-    width: 250px;
-    margin-left: 1420px;
-    margin-top: -442px;
-    border-width: 0.1ch;
-    justify-content: space-evenly;
-    background-color: #E8E9ED;
+#heart {
+    background-color: pink;
 }
 
-.prim-pic {
-    height: 300px;
-    width: 250px;
-    border-bottom: solid;
-    border-width: 0.1ch;
-}
-
-.prim-pic {
-    border: solid;
-    height: 440px;
-    width: 250px;
-    margin-left: 1720px;
-    margin-top: -482px;
-    border-width: 0.1ch;
-    justify-content: space-evenly;
-    background-color: #E8E9ED;
-    flex-direction: column;
+.menu__bar {
+    height: 80px;
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
 }
+
+.menu__bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__bar ul li a {
+    padding: 60px 140px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: -255px;
+    justify-content: space-between;
+}
+
