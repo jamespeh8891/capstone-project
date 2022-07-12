@@ -193,3 +193,7 @@ nav {
     justify-content: space-between;
 }
 
+.product-row-container {
+ display: flex;
+ 
+}
